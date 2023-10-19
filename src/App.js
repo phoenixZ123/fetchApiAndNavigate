@@ -1,4 +1,4 @@
-import { Outlet } from 'react-router-dom';
+import { NavLink, Outlet } from 'react-router-dom';
 import './App.css';
 
 function App() {
@@ -6,8 +6,8 @@ function App() {
     <div className="App">
    <nav><h3>My Blogs</h3>
     <ul>
-      <li><a href='/'>Home</a></li>
-      <li><a href='/clothes'>Clothes</a></li>
+      <li><NavLink to='/'>Home</NavLink></li>
+          <li><NavLink to='/clothes'>Clothes</NavLink></li>
     </ul>
    </nav>
    <div className='body'>
