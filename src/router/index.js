@@ -6,6 +6,7 @@ import {
 import { Contact } from "./pages/Contact";
 import { Home } from "./pages/Home";
 import { BookDetail } from "./pages/BookDetail";
+import { NotFound } from "./pages/NotFound";
 
 
 const router = createBrowserRouter([
@@ -23,6 +24,9 @@ const router = createBrowserRouter([
             },{
                 element:<BookDetail/>,
                 path:"/books/:id"
+            },{
+                element:<NotFound/>,
+                path:"*"
             }
            
         ]

@@ -1,0 +1,21 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+.detail-list{
+    width:100%;
+    margin-top:20px;
+    font-size:15px;
+}
+.list p{
+    margin:20px;
+}
+.list p:first-child{
+    font-weight:400;
+    font-size:18px;
+}
+.list{
+    width:100%;
+    margin: 55px 100px;
+}

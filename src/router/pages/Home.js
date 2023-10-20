@@ -7,7 +7,7 @@ export const Home = () => {
   let { data: books, loading, error } = useFetch(url);
 
   return (
-    <>
+    <div className="body-home">
       {loading && <Loading />}
       {!loading && (
         <>
@@ -27,6 +27,6 @@ export const Home = () => {
             ))}
         </>
       )}
-    </>
+    </div>
   );
 };
